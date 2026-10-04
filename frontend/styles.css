@@ -1,0 +1,21 @@
+:root { --brand: #2457d6; --ink: #17233c; --muted: #68758b; }
+body { background: #f4f7fc; color: var(--ink); min-height: 100vh; }
+.app-nav { background: #172b59; }
+.navbar-brand { letter-spacing: .2px; }
+.app-card { border: 1px solid #e8edf6; border-radius: 16px; box-shadow: 0 8px 28px rgba(27, 48, 89, .05); }
+.btn-primary { background: var(--brand); border-color: var(--brand); }
+.btn-primary:hover { background: #1947bd; border-color: #1947bd; }
+.form-control, .form-select { border-color: #dce3ef; padding: .65rem .8rem; }
+.form-control:focus, .form-select:focus { border-color: #8aa8f5; box-shadow: 0 0 0 .2rem rgba(36,87,214,.12); }
+.stat-card { height: 100%; background: white; border: 1px solid #e8edf6; border-radius: 14px; padding: 1rem 1.2rem; display: flex; flex-direction: column; gap: .35rem; }
+.stat-card span { color: var(--muted); font-size: .9rem; }
+.stat-card strong { font-size: 1.7rem; }
+.filter-select { max-width: 180px; }
+.table thead th { color: #66738a; font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; white-space: nowrap; }
+.table td { min-width: 95px; }
+.status-pill { display: inline-block; border-radius: 999px; padding: .3rem .65rem; font-size: .78rem; font-weight: 600; white-space: nowrap; }
+.status-pending { background: #fff3d7; color: #8b5c00; }
+.status-progress { background: #e5efff; color: #2457a7; }
+.status-resolved { background: #dcf6e8; color: #167344; }
+.description-cell { max-width: 240px; color: var(--muted); font-size: .88rem; }
+@media (max-width: 576px) { main.container { padding-left: 14px; padding-right: 14px; } .card-body { padding: 1.1rem !important; } }
